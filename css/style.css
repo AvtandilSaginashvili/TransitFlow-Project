@@ -220,7 +220,7 @@ header {
 
 
 .cont12 {
-    transition: 0.8s !important;
+    
     
 }
 
@@ -229,10 +229,12 @@ header {
     height: 322px !important;
     right: 10% !important;
     top: 10% !important;
-    display: none !important;
+    opacity: 0 !important;
+    transition: all .3s !important;
 }
  
 .cont12:hover .hovimg {
+    opacity: 1 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
